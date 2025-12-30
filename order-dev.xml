@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+custom:
+  message: "Hello  from Order Service via Config Server."
